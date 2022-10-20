@@ -9,10 +9,10 @@ function IncDecCounter(){
      if(num>0)  setNum(Number(num - 1));
   }
    return(
-    <div>
-      <h2>Count: {num}</h2>
-      <button class="btn" onClick={incNum}>Increment</button>
-      <button class="btn" onClick={decNum}>Decrement</button>
+    <div className="mt-5">
+      <h2>Counter: {num}</h2>
+      <button type="button" className="btn btn-outline-success mr-3" onClick={incNum}>Increment</button>
+      <button type="button" className="btn btn-outline-danger m-3" onClick={decNum}>Decrement</button>
     </div>
   );
 }

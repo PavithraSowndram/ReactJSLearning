@@ -36,11 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-.btn {
-  margin-Right: 10px;
-  background-color: lightblue;
-  border-radius: 3px;
-  height: 30px;
-  border-color: antiquewhite;
-}
